@@ -36,7 +36,7 @@ Dodgers = {'ID':"19",
                     'reward_text':"$5 Panda Express plate! Use promo code 'DODGERSWIN'"}
                     ]
           }
-Ducks =   {'ID':"134846",
+Ducks =   {'ID':"25",
            'sport':"hockey",
          'rewards':[{'rewardFUN':scoreAtLeast,
                     'minScore':5,
@@ -44,7 +44,7 @@ Ducks =   {'ID':"134846",
                     'reward_text':cfa_text}
                     ]
          }
-LAFC = {'ID':"136050",
+LAFC = {'ID':"18966",
         'sport':"soccer",
         'rewards':[{'rewardFUN':winGame,
                     'homeReq':True,
