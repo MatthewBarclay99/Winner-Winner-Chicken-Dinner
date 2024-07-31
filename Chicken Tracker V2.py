@@ -73,6 +73,9 @@ def find_team_result(league_results, team_id):
                 else:
                     opponent=competitors_dict
             if found:
+                if not competition_dict.get('status').get('type').get('completed'):
+                    team = ""
+                    opponent = ""
                 break
         if found:
             break
@@ -108,5 +111,5 @@ printRewards(rewards)
 
 
 
-
+ 
 
